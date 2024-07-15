@@ -2,14 +2,14 @@ api = "0.7"
 
 [buildpack]
   description = "A buildpack for configuring a Memcached session handler for PHP"
-  homepage = "https://github.com/paketo-buildpacks/php-memcached-session-handler"
-  id = "paketo-buildpacks/php-memcached-session-handler"
+  homepage = "https://github.com/initializ-buildpacks/php-memcached-session-handler"
+  id = "initializ-buildpacks/php-memcached-session-handler"
   keywords = ["php", "memcached"]
-  name = "Paketo Buildpack for PHP Memcached Session Handler"
+  name = "Initializ Buildpack for PHP Memcached Session Handler"
 
   [[buildpack.licenses]]
     type = "Apache-2.0"
-    uri = "https://github.com/paketo-buildpacks/php-memcached-session-handler/blob/main/LICENSE"
+    uri = "https://github.com/initializ-buildpacks/php-memcached-session-handler/blob/main/LICENSE"
 
 [metadata]
   include-files = ["bin/build", "bin/detect", "bin/run", "buildpack.toml", "config/php-memcached.ini"]

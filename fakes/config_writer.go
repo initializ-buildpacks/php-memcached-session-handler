@@ -3,7 +3,7 @@ package fakes
 import (
 	"sync"
 
-	phpmemcachedhandler "github.com/paketo-buildpacks/php-memcached-session-handler"
+	phpmemcachedhandler "github.com/initializ-buildpacks/php-memcached-session-handler"
 )
 
 type ConfigWriter struct {

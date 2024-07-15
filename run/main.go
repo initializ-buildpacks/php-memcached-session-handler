@@ -3,10 +3,10 @@ package main
 import (
 	"os"
 
+	phpmemcachedhandler "github.com/initializ-buildpacks/php-memcached-session-handler"
 	"github.com/paketo-buildpacks/packit/v2"
 	"github.com/paketo-buildpacks/packit/v2/scribe"
 	"github.com/paketo-buildpacks/packit/v2/servicebindings"
-	phpmemcachedhandler "github.com/paketo-buildpacks/php-memcached-session-handler"
 )
 
 func main() {

@@ -6,8 +6,8 @@ import (
 	"path/filepath"
 	"testing"
 
+	phpmemcachedhandler "github.com/initializ-buildpacks/php-memcached-session-handler"
 	"github.com/paketo-buildpacks/packit/v2/scribe"
-	phpmemcachedhandler "github.com/paketo-buildpacks/php-memcached-session-handler"
 	"github.com/sclevine/spec"
 
 	. "github.com/onsi/gomega"

@@ -4,11 +4,11 @@ import (
 	"errors"
 	"testing"
 
+	phpmemcachedhandler "github.com/initializ-buildpacks/php-memcached-session-handler"
+	"github.com/initializ-buildpacks/php-memcached-session-handler/fakes"
 	. "github.com/onsi/gomega"
 	"github.com/paketo-buildpacks/packit/v2"
 	"github.com/paketo-buildpacks/packit/v2/servicebindings"
-	phpmemcachedhandler "github.com/paketo-buildpacks/php-memcached-session-handler"
-	"github.com/paketo-buildpacks/php-memcached-session-handler/fakes"
 	"github.com/sclevine/spec"
 )
 
